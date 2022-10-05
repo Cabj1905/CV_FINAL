@@ -18,7 +18,7 @@
 }
 
 .foto{
-    width: 100%;
+    widht:10.5%;
     display: flex;
     float:right;  
     flex-direction: column-reverse;
