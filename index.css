@@ -18,7 +18,7 @@
 }
 
 .foto{
-    widht:10.5%;
+    width: 10.5%;
     display: flex;
     float:right;  
     flex-direction: column-reverse;
@@ -156,5 +156,33 @@ label{
         user-select: none;
     }
   
-  }
+}
+
+@media(max-widht:992px)
+{
+    h1{
+        color:blueviolet;
+        float: center;
+        font-size: 30px;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+@media(max-widht: 765px)
+{
+    h1{
+        color:blueviolet;
+        float: center;
+        font-size: 18px;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+    
+
 
