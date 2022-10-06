@@ -116,5 +116,10 @@ body{
         text-align: center;
         user-select: none;
     }
+
+    .linea{
+        display: none;
+        background-color: whitesmoke;
+    }
   
 }
